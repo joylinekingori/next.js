@@ -1,7 +1,11 @@
 const nextConfig={
-    experimental:{
-        turbo: false,
-    },
+
+        turbopack:{},
+        reactStrictMode: true,
+        images: {
+            domains:[],
+        },
+
 };
 
 module.exports=nextConfig
