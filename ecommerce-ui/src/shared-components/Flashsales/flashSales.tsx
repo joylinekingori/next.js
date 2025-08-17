@@ -1,8 +1,8 @@
-import ProductCard from "./productCard";
+import ProductCard from "../ProductCard/productCard";
 const flashProducts = [
-  { id: 1, name: "Gamepad", price: "$99", img: "/gamepad.png" },
-  { id: 2, name: "Headset", price: "$149", img: "/headset.png" },
-  { id: 3, name: "Chair", price: "$199", img: "/chair.png" },
+  { id: 1, name: "Gamepad", price: "$99", img: "/images/gp.jpeg" },
+  { id: 2, name: "Headset", price: "$149", img: "/images/keyboard.jpeg" },
+  { id: 3, name: "Chair", price: "$199", img: "/images/chair.jpeg" },
 ];
 export default function FlashSales() {
   return (

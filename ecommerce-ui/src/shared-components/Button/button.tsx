@@ -12,3 +12,4 @@ export default function Button({ children, className = "", ...props }: ButtonPro
     </button>
   );
 }
+

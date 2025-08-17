@@ -11,7 +11,7 @@ export default function Banner({
   title = "Up to 10% off Voucher",
   subtitle = "iPhone 14 Series",
   cta = "Shop Now",
-  img = "/banner-product.png",
+  img = "/images/hero2.jpeg",
   dark = true,
   className = "",
 }: BannerProps) {

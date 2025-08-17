@@ -1,8 +1,8 @@
-import Header from "@/components/header";
-import Footer from "@/components/footer";
-import AuthLayout from "@/components/authAside";
-import Input from "@/components/inputField";
-import Button from "@/components/button";
+import Header from "@/shared-components/Header/header";
+import Footer from "@/shared-components/Footer/footer";
+import AuthLayout from "@/shared-components/Auth/authentication";
+import Input from "@/shared-components/InputField/inputField";
+import Button from "@/shared-components/Button/button";
 import Link from "next/link";
 export default function LoginPage() {
   return (

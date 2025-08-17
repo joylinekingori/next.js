@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { ReactNode } from "react";
-export default function AuthLayout({ children, title, subtitle }: {
+export default function Auth({ children, title, subtitle }: {
   children: ReactNode;
   title: string;
   subtitle?: string;
@@ -10,10 +10,10 @@ export default function AuthLayout({ children, title, subtitle }: {
       <div className="w-full max-w-6xl flex items-center gap-12">
         <div className="hidden md:block flex-1">
           <Image
-            src="/images/login-side.png"
+            src="/images/cart.jpeg"
             alt="Illustration"
-            width={600}
-            height={600}
+            width={800}
+            height={800}
             className="object-contain"
             priority
           />

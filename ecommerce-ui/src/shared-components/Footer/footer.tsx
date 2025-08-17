@@ -109,10 +109,10 @@ export default function Footer() {
             <h3 className="text-lg font-semibold text-white">Download App</h3>
             <p className="mt-2 text-xs text-gray-400">Save $3 with App New User Only</p>
             <div className="mt-4 flex items-center gap-4">
-              <Image src="/qr.png" alt="QR code" width={84} height={84} className="w-20 h-20 rounded-sm" />
+              <Image src="/images/qrcode.jpeg" alt="QR code" width={84} height={84} className="w-20 h-20 rounded-sm" />
               <div className="space-y-2">
-                <Image src="/appstore-badge.svg" alt="Download on the App Store" width={120} height={36} />
-                <Image src="/googleplay-badge.svg" alt="Get it on Google Play" width={120} height={36} />
+                <Image src="/images/app.png" alt="Download on the App Store" width={15} height={20} />
+                <Image src="/images/google.png" alt="Get it on Google Play" width={20} height={20} />
               </div>
             </div>
             <div className="mt-6 flex items-center gap-4">
